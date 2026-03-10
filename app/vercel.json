@@ -1,0 +1,8 @@
+{
+  "name": "pregnancy-smiles",
+  "build": {
+    "env": {
+      "VITE_GEMINI_API_KEY": ""
+    }
+  }
+}
