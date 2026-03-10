@@ -22,8 +22,55 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#2D3748] text-white py-12">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="bg-[#2D3748] text-white">
+      {/* References Section */}
+      <div className="border-b border-gray-700">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+          <h3 className="font-semibold text-white mb-6 flex items-center gap-2">
+            <span className="w-1 h-5 bg-[#7EB5A6] rounded-full"></span>
+            References
+          </h3>
+          <ul className="space-y-4">
+            {/* Boyd & Mallonee (2023) - Book */}
+            <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
+              Boyd, L. D., & Mallonee, L. F. (2023). <em>Wilkins' clinical practice of the dental hygienist</em> (14th ed.). Jones & Bartlett Learning.
+            </li>
+            
+            {/* Dragan et al. (2018) - Journal */}
+            <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
+              Dragan, I. F., Veglia, V., Geisinger, M. L., & Alexander, D. C. (2018). Dental care as a safe and essential part of a healthy pregnancy. <em>Compendium of Continuing Education in Dentistry</em>, <em>39</em>(2), 86–92. https://pubmed.ncbi.nlm.nih.gov/29388782/
+            </li>
+            
+            {/* Geisinger et al. (2019) - Journal */}
+            <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
+              Geisinger, M. L., Alexander, D. C., Dragan, I. F., & Mitchell, S. C. (2019). The dental team's role in maternal and child oral health during and after pregnancy. <em>Compendium of Continuing Education in Dentistry</em>, <em>40</em>(2), 90–97. https://pubmed.ncbi.nlm.nih.gov/30767548/
+            </li>
+            
+            {/* Plage Dentistry (2020) - Website */}
+            <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
+              Plage Dentistry. (2020, October 16). Dental caries and how they affect your health. https://www.plagedentistry.com/dental-caries-and-how-they-affect-your-health/
+            </li>
+            
+            {/* Rasche (2015) - Website */}
+            <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
+              Rasche, M. (2015, December 17). Pregnancy & oral health. <em>SIPD Pediatric Dentistry</em>. https://sipediatricdentistry.com/pregnancy-oral-health/
+            </li>
+            
+            {/* Silk et al. (2008) - Journal */}
+            <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
+              Silk, H., Douglass, A. B., Douglass, J. M., & Silk, L. (2008). Oral health during pregnancy. <em>American Family Physician</em>, <em>77</em>(8), 1139–1144. https://pubmed.ncbi.nlm.nih.gov/18481562/
+            </li>
+            
+            {/* Smith (2024) - Website */}
+            <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
+              Smith, H. M. (2024, August 1). Oral cavity & oropharynx soft tissue tumors & proliferations: Pyogenic granuloma. <em>PathologyOutlines.com</em>. https://www.pathologyoutlines.com/topic/oralcavitypyogenicgranuloma.html
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Main Footer */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
           {/* Logo & Description */}
           <div className="md:col-span-1">

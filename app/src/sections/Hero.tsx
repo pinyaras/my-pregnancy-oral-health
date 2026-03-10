@@ -125,17 +125,6 @@ export default function Hero() {
                 alt="Pregnant woman with healthy smile"
                 className="relative z-10 w-full max-w-md mx-auto rounded-2xl shadow-2xl shadow-gray-200/50"
               />
-              
-              {/* Floating badge */}
-              <div className="absolute -bottom-4 -left-4 z-20 bg-white rounded-xl shadow-lg p-4 flex items-center gap-3">
-                <div className="w-10 h-10 bg-[#F0F7F4] rounded-full flex items-center justify-center">
-                  <span className="text-2xl">🦷</span>
-                </div>
-                <div>
-                  <p className="text-xs text-gray-500">Healthy Smile</p>
-                  <p className="text-sm font-semibold text-[#5A9686]">For Two</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ const issues = [
   {
     icon: Sparkles,
     title: 'Pregnancy Gingivitis',
+    image: '/gingivitis.png',
     points: [
       'Very common during pregnancy',
       'Gums may look red, swollen, and shiny',
@@ -19,6 +20,7 @@ const issues = [
     icon: AlertCircle,
     title: 'Pregnancy Tumor',
     subtitle: '(Pyogenic Granuloma)',
+    image: '/pyogenic-granuloma.jpg',
     points: [
       'Benign inflammatory growth on gums',
       'May bleed easily but is not cancer',
@@ -32,6 +34,7 @@ const issues = [
   {
     icon: Droplets,
     title: 'Enamel Erosion',
+    image: '/tooth-erosion-ant.jpg',
     points: [
       'Can happen with repeated vomiting',
       'Acid weakens tooth surfaces',
@@ -45,6 +48,7 @@ const issues = [
   {
     icon: Shield,
     title: 'Increased Cavities Risk',
+    image: '/dental-caries.jpeg',
     points: [
       'Pregnancy does not directly cause cavities',
       'Risk increases with sweet cravings',
@@ -122,6 +126,18 @@ export default function CommonIssues() {
                   className="h-1.5"
                   style={{ backgroundColor: issue.borderColor }}
                 />
+
+                {/* Image */}
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src={issue.image}
+                    alt={issue.title}
+                    className="w-full h-full object-cover"
+                  />
+                  <div 
+                    className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"
+                  />
+                </div>
 
                 <div className="p-6 lg:p-8">
                   {/* Header */}

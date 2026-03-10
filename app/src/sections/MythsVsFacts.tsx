@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { RotateCcw, X, Check } from 'lucide-react';
+import { RotateCcw, Info, Check } from 'lucide-react';
 
 const mythsAndFacts = [
   {
@@ -190,7 +190,7 @@ export default function MythsVsFacts() {
           }`}
         >
           <div className="inline-flex items-center gap-3 px-6 py-4 bg-[#F0F7F4] rounded-2xl">
-            <X className="w-5 h-5 text-[#E07A87]" />
+            <Info className="w-5 h-5 text-[#5A9686]" />
             <span className="text-gray-700">
               <span className="font-medium">Remember:</span> When in doubt, always consult your dentist or dental hygienist.
             </span>
