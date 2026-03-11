@@ -1,6 +1,7 @@
 {
   "name": "pregnancy-smiles",
   "build": {
+    "command": "npm install && npm run build",
     "env": {
       "VITE_GEMINI_API_KEY": ""
     }
