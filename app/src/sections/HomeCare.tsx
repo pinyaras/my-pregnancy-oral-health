@@ -14,6 +14,8 @@ interface CareSection {
   animationClass: string;
   intro: string | null;
   items: string[];
+  noteTitle: string | null;
+  noteText: string | null;
 }
 
 const careSections: CareSection[] = [
@@ -35,6 +37,8 @@ const careSections: CareSection[] = [
       'Use a tongue scraper and/or alcohol-free mouthrinse to reduce oral bacteria',
       'Drink fluoridated water when available and use fluoride products such as gels, trays, mouthrinses, and dentifrices',
     ],
+    noteTitle: null,
+    noteText: null,
   },
   {
     icon: Utensils,
@@ -54,6 +58,8 @@ const careSections: CareSection[] = [
       'Ensure adequate intake of calcium, phosphorus, iron, and vitamin D',
       'Avoid nicotine and alcohol, which can negatively affect both maternal and fetal health',
     ],
+    noteTitle: null,
+    noteText: null,
   },
   {
     icon: Moon,
@@ -70,6 +76,8 @@ const careSections: CareSection[] = [
       'Rinse with fluoridated water or a baking soda solution (1 cup water + 1 tsp baking soda) directly after vomiting',
       'Wait 30 minutes before brushing to prevent enamel abrasion',
     ],
+    noteTitle: 'Gag-Reflex Tip',
+    noteText: 'Use a kid-size toothbrush with a smaller brush head if brushing triggers gagging.',
   },
 ];
 
@@ -159,6 +167,18 @@ export default function HomeCare() {
                       </li>
                     ))}
                   </ul>
+
+                  {section.noteTitle !== null && section.noteText !== null && (
+                    <div className="mt-5 p-4 rounded-xl bg-[#F0F7F4]">
+                      <div className="flex items-start gap-3">
+                        <span className="text-base leading-none flex-shrink-0 mt-0.5" aria-hidden="true">🪥</span>
+                        <div>
+                          <p className="text-sm font-medium text-gray-800">{section.noteTitle}</p>
+                          <p className="text-xs text-gray-600 mt-1">{section.noteText}</p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             );

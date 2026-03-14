@@ -75,6 +75,20 @@ export default function Footer() {
               An educational resource designed to help expectant mothers understand 
               and maintain their oral health during pregnancy.
             </p>
+            <div className="mt-4 space-y-1 text-sm text-gray-400 leading-relaxed">
+              <p className="font-medium text-gray-300">Bergen Community College</p>
+              <p>Dental Hygiene Program</p>
+              <p>Professor Lisa Duddy, DHSc, RDH</p>
+              <p>Clinical Coordinator</p>
+              <a
+                href="https://bergen.edu/dental/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-[#7EB5A6] hover:text-[#A8D4C8] transition-colors"
+              >
+                bergen.edu/dental/
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
