@@ -31,39 +31,28 @@ export default function Footer() {
             References
           </h3>
           <ul className="space-y-4">
-            {/* Boyd & Mallonee (2023) - Book */}
             <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
               Boyd, L. D., & Mallonee, L. F. (2023). <em>Wilkins' clinical practice of the dental hygienist</em> (14th ed.). Jones & Bartlett Learning.
             </li>
-            
-            {/* Dragan et al. (2018) - Journal */}
+
             <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
               Dragan, I. F., Veglia, V., Geisinger, M. L., & Alexander, D. C. (2018). Dental care as a safe and essential part of a healthy pregnancy. <em>Compendium of Continuing Education in Dentistry</em>, <em>39</em>(2), 86–92. https://pubmed.ncbi.nlm.nih.gov/29388782/
             </li>
-            
-            {/* Geisinger et al. (2019) - Journal */}
+
             <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
               Geisinger, M. L., Alexander, D. C., Dragan, I. F., & Mitchell, S. C. (2019). The dental team's role in maternal and child oral health during and after pregnancy. <em>Compendium of Continuing Education in Dentistry</em>, <em>40</em>(2), 90–97. https://pubmed.ncbi.nlm.nih.gov/30767548/
             </li>
-            
-            {/* Plage Dentistry (2020) - Website */}
-            <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
-              Plage Dentistry. (2020, October 16). Dental caries and how they affect your health. https://www.plagedentistry.com/dental-caries-and-how-they-affect-your-health/
-            </li>
-            
-            {/* Rasche (2015) - Website */}
-            <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
-              Rasche, M. (2015, December 17). Pregnancy & oral health. <em>SIPD Pediatric Dentistry</em>. https://sipediatricdentistry.com/pregnancy-oral-health/
-            </li>
-            
-            {/* Silk et al. (2008) - Journal */}
+
             <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
               Silk, H., Douglass, A. B., Douglass, J. M., & Silk, L. (2008). Oral health during pregnancy. <em>American Family Physician</em>, <em>77</em>(8), 1139–1144. https://pubmed.ncbi.nlm.nih.gov/18481562/
             </li>
-            
-            {/* Smith (2024) - Website */}
+
             <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
-              Smith, H. M. (2024, August 1). Oral cavity & oropharynx soft tissue tumors & proliferations: Pyogenic granuloma. <em>PathologyOutlines.com</em>. https://www.pathologyoutlines.com/topic/oralcavitypyogenicgranuloma.html
+              Vera-Carpio, M. L., Carranza-Samanez, K. M., & Dulanto-Vargas, J. A. (2025). Myths about oral health and associated factors in pregnant women in a public hospital in Peru. <em>PubMed</em>, <em>23</em>, 123–134. https://doi.org/10.3290/j.ohpd.c_1845
+            </li>
+
+            <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
+              Yenen, Z., & Ataçağ, T. (2019). Oral care in pregnancy. <em>Journal of the Turkish German Gynecological Association</em>, <em>20</em>(4), 264–268. https://doi.org/10.4274/jtgga.galenos.2018.2018.0139
             </li>
           </ul>
         </div>
@@ -80,7 +69,7 @@ export default function Footer() {
               className="flex items-center gap-2 text-white font-semibold text-lg mb-4"
             >
               <Heart className="w-5 h-5 fill-[#F4A5AE] text-[#F4A5AE]" />
-              <span>Healthy Mouth, Healthy Pregnancy</span>
+              <span>Smiles for Two: A Pregnancy Oral Health Guide</span>
             </a>
             <p className="text-gray-400 text-sm leading-relaxed">
               An educational resource designed to help expectant mothers understand 
@@ -121,7 +110,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 mt-10 pt-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} Healthy Mouth, Healthy Pregnancy. Educational resource for expectant mothers.
+              © {new Date().getFullYear()} Smiles for Two: A Pregnancy Oral Health Guide. Educational resource for expectant mothers.
             </p>
             <p className="text-gray-500 text-sm flex items-center gap-1">
               Made with <Heart className="w-4 h-4 fill-[#F4A5AE] text-[#F4A5AE]" /> for moms-to-be
