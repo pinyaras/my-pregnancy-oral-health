@@ -173,7 +173,7 @@ export default function KeyTakeaways() {
             <span className="text-4xl">🦷</span>
             <div className="text-center sm:text-left">
               <p className="text-white font-semibold text-lg">
-                Healthy Mouth, Healthy Pregnancy
+                Smiles for Two: A Pregnancy Oral Health Guide
               </p>
               <p className="text-white/80 text-sm mt-1">
                 Taking care of your oral health is one of the best gifts you can give yourself and your baby.

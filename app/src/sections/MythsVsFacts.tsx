@@ -3,28 +3,60 @@ import { RotateCcw, Info, Check } from 'lucide-react';
 
 const mythsAndFacts = [
   {
-    myth: 'Pregnancy causes tooth loss.',
-    fact: 'Pregnancy does not directly cause tooth loss, but untreated disease can damage oral health.',
+    myth: 'Pregnancy weakens teeth.',
+    fact: 'Pregnancy itself does not directly weaken teeth. Plaque buildup, diet changes, nausea, vomiting, and oral care habits increase risk. In the study, 77.6% agreed with this myth.',
   },
   {
-    myth: 'Dental treatment should wait until after delivery.',
-    fact: 'Necessary dental care should not be delayed during pregnancy. Routine care is safe and recommended.',
+    myth: 'The baby takes calcium from the mother\'s teeth.',
+    fact: 'The baby does not pull calcium from the mother\'s teeth. Teeth do not lose calcium this way. In the study, 65.9% agreed with this myth.',
   },
   {
-    myth: 'Dental X-rays always harm the baby.',
-    fact: 'Dental X-rays are safe with proper shielding and modern low-radiation equipment.',
+    myth: 'Bleeding gums during pregnancy are normal and do not need dental care.',
+    fact: 'Bleeding gums are common during pregnancy, but they still need attention because they can be a sign of gingivitis. Most women in the study disagreed with ignoring bleeding gums.',
   },
   {
-    myth: 'Bleeding gums are normal, so nothing needs to be done.',
-    fact: 'Bleeding gums are common but still a sign of inflammation that should be addressed with better oral care.',
+    myth: 'You should not brush your teeth during pregnancy.',
+    fact: 'You should keep brushing during pregnancy. Good oral hygiene is important for both mother and baby. Most women in the study disagreed with this myth.',
   },
   {
-    myth: 'Brushing after vomiting is the best thing to do.',
-    fact: 'Rinse first and wait 30 minutes before brushing to avoid damaging acid-softened enamel.',
+    myth: 'If you have dental pain during pregnancy, avoid the dentist.',
+    fact: 'Dental pain should not be ignored during pregnancy. Dental visits are important, and most women in the study disagreed with avoiding the dentist.',
   },
   {
-    myth: 'You lose a tooth for every pregnancy.',
-    fact: 'This is an old wives\' tale. With proper care, you can maintain all your teeth through multiple pregnancies.',
+    myth: 'No dental treatment should be done during pregnancy.',
+    fact: 'Dental care during pregnancy is generally important and should not automatically be avoided. Most women in the study disagreed with avoiding all treatment.',
+  },
+  {
+    myth: 'You should wait a few days after childbirth before brushing again.',
+    fact: 'Normal oral hygiene should continue. In the study, 84.4% disagreed with waiting to brush after childbirth.',
+  },
+  {
+    myth: 'Eating spicy food during pregnancy will affect the baby\'s oral health.',
+    fact: 'This is a common belief, but it is a myth. In the study, 50.8% agreed with it.',
+  },
+  {
+    myth: 'Pregnancy causes more cavities and gums to bleed.',
+    fact: 'Pregnancy does not magically create cavities, but pregnancy-related changes can raise risk if oral hygiene and diet are not managed. In the study, 44.4% agreed about bleeding gums and 42.6% agreed about tooth decay.',
+  },
+  {
+    myth: 'Dental x-rays during pregnancy will harm the baby.',
+    fact: 'This was a very common fear in the study, with 48.2% agreeing, and it was listed as a major myth.',
+  },
+  {
+    myth: 'Dental anesthesia during pregnancy will affect the baby.',
+    fact: 'This was also a common myth in the study, with 33.6% agreeing and many others unsure.',
+  },
+  {
+    myth: 'Dental medications during pregnancy will weaken the baby.',
+    fact: 'This was another frequent myth, with 48.7% agreeing.',
+  },
+  {
+    myth: 'Oral health during pregnancy does not affect the baby\'s health.',
+    fact: 'Maternal oral health does matter. Many women in the study rejected this myth, supporting the importance of oral health for both mother and baby.',
+  },
+  {
+    myth: 'Baby teeth are not important because they fall out anyway.',
+    fact: 'Baby teeth still matter and need care. Most women in the study disagreed with this myth.',
   },
 ];
 
@@ -167,7 +199,7 @@ export default function MythsVsFacts() {
               headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
             }`}
           >
-            Click each card to reveal the truth behind common pregnancy oral health myths.
+            Click each card to reveal study-based facts behind common pregnancy oral health myths.
           </p>
         </div>
 
@@ -192,7 +224,7 @@ export default function MythsVsFacts() {
           <div className="inline-flex items-center gap-3 px-6 py-4 bg-[#F0F7F4] rounded-2xl">
             <Info className="w-5 h-5 text-[#5A9686]" />
             <span className="text-gray-700">
-              <span className="font-medium">Remember:</span> When in doubt, always consult your dentist or dental hygienist.
+              <span className="font-medium">Remember:</span> Myths are common, so ask your dentist or dental hygienist when you are unsure.
             </span>
           </div>
         </div>

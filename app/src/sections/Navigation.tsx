@@ -51,7 +51,7 @@ export default function Navigation() {
             }}
           >
             <Heart className="w-5 h-5 fill-[#F4A5AE] text-[#F4A5AE]" />
-            <span className="hidden sm:inline">Healthy Mouth, Healthy Pregnancy</span>
+            <span className="hidden sm:inline">Smiles for Two: A Pregnancy Oral Health Guide</span>
             <span className="sm:hidden">Pregnancy & Oral Health</span>
           </a>
 
