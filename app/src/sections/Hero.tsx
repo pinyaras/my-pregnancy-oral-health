@@ -40,8 +40,6 @@ export default function Hero() {
       {/* Decorative Elements */}
       <div className="absolute top-20 left-10 w-64 h-64 bg-[#A8D4C8]/20 rounded-full blur-3xl" />
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-[#FAD4D8]/30 rounded-full blur-3xl" />
-      <div className="absolute top-1/2 left-1/4 w-4 h-4 bg-[#7EB5A6]/40 rounded-full" />
-      <div className="absolute top-1/3 right-1/3 w-3 h-3 bg-[#F4A5AE]/50 rounded-full" />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -60,11 +58,11 @@ export default function Hero() {
 
             {/* Title */}
             <h1
-              className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 mt-6 text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-800 leading-tight"
+              className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 mt-6 text-[clamp(2rem,7vw,4.25rem)] font-semibold text-gray-800 leading-[1.08] tracking-tight"
               style={{ transitionDelay: '200ms' }}
             >
               Pregnancy &{' '}
-              <span className="text-[#7EB5A6]">Oral Health</span>
+              <span className="text-[#7EB5A6] sm:inline block">Oral Health</span>
             </h1>
 
             {/* Subtitle */}
