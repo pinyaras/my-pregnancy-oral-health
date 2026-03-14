@@ -26,3 +26,8 @@ Thumbs.db
 
 # Misc
 *.tgz
+
+# Local content sources
+homecare_soruce.md
+myth_fact.md
+ref.md
