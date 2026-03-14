@@ -185,14 +185,14 @@ export default function MythsVsFacts() {
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span
-            className={`inline-block text-sm font-medium text-[#7EB5A6] uppercase tracking-wider transition-all duration-700 ${
+            className={`inline-flex items-center px-4 py-2 rounded-full border border-[#A8D4C8]/60 bg-[#F0F7F4] text-sm font-semibold text-[#5A9686] uppercase tracking-[0.12em] shadow-sm transition-all duration-700 ${
               headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
             }`}
           >
             Separating Truth from Fiction
           </span>
           <h2
-            className={`mt-3 text-3xl sm:text-4xl font-semibold text-gray-800 transition-all duration-700 delay-100 ${
+            className={`mt-3 text-[clamp(1.35rem,3.8vw,2.25rem)] whitespace-nowrap leading-tight font-semibold text-gray-800 transition-all duration-700 delay-100 ${
               headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
             }`}
           >

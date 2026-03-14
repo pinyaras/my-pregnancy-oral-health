@@ -55,11 +55,11 @@ export default function DentalVisits() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 inline-block text-sm font-medium text-[#E07A87] uppercase tracking-wider">
+          <span className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 inline-flex items-center px-4 py-2 rounded-full border border-[#FAD4D8]/70 bg-white/80 text-sm font-semibold text-[#E07A87] uppercase tracking-[0.12em] shadow-sm">
             Safe Care for You and Baby
           </span>
           <h2
-            className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 mt-3 text-3xl sm:text-4xl font-semibold text-gray-800"
+            className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 mt-3 text-[clamp(1.35rem,3.8vw,2.25rem)] whitespace-nowrap leading-tight font-semibold text-gray-800"
             style={{ transitionDelay: '100ms' }}
           >
             Dental Care During Pregnancy is Safe

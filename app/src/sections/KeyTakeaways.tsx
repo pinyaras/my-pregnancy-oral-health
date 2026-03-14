@@ -106,14 +106,14 @@ export default function KeyTakeaways() {
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span
-            className={`inline-block text-sm font-medium text-white/80 uppercase tracking-wider transition-all duration-700 ${
+            className={`inline-flex items-center px-4 py-2 rounded-full border border-white/35 bg-white/15 text-sm font-semibold text-white/90 uppercase tracking-[0.12em] shadow-sm transition-all duration-700 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
             }`}
           >
             Remember These Key Points
           </span>
           <h2
-            className={`mt-3 text-3xl sm:text-4xl font-semibold text-white transition-all duration-700 delay-100 ${
+            className={`mt-3 text-[clamp(1.35rem,3.8vw,2.25rem)] whitespace-nowrap leading-tight font-semibold text-white transition-all duration-700 delay-100 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
             }`}
           >

@@ -92,11 +92,11 @@ export default function CommonIssues() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 inline-block text-sm font-medium text-[#5A9686] uppercase tracking-wider">
+          <span className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 inline-flex items-center px-4 py-2 rounded-full border border-[#A8D4C8]/60 bg-white/80 text-sm font-semibold text-[#5A9686] uppercase tracking-[0.12em] shadow-sm">
             What to Expect
           </span>
           <h2
-            className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 mt-3 text-3xl sm:text-4xl font-semibold text-gray-800"
+            className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 mt-3 text-[clamp(1.35rem,3.8vw,2.25rem)] whitespace-nowrap leading-tight font-semibold text-gray-800"
             style={{ transitionDelay: '100ms' }}
           >
             Common Oral Changes During Pregnancy
