@@ -33,7 +33,7 @@ const careSections: CareSection[] = [
     items: [
       'Brush twice daily with fluoride toothpaste',
       'Use floss or interdental cleaners daily',
-      'Replace toothbrush every 3–4 months',
+      'Replace your toothbrush every 3–4 months, or sooner if the bristles become frayed',
       'Use a tongue scraper and/or alcohol-free mouthrinse to reduce oral bacteria',
       'Drink fluoridated water when available and use fluoride products such as gels, trays, mouthrinses, and dentifrices',
     ],
