@@ -22,7 +22,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#2D3748] text-white">
+    <footer id="footer" className="bg-[#2D3748] text-white">
       {/* References Section */}
       <div className="border-b border-gray-700">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">

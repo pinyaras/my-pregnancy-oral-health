@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { AlertCircle, Shield, Droplets, Sparkles } from 'lucide-react';
+import { AlertCircle, Shield, Droplets, Sparkles, ArrowRight } from 'lucide-react';
 
 const issues = [
   {
@@ -196,6 +196,16 @@ export default function CommonIssues() {
               Talk to your dentist or dental hygienist for personalized guidance.
             </p>
           </div>
+        </div>
+
+        <div className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 mt-10 flex justify-end" style={{ transitionDelay: '800ms' }}>
+          <a
+            href="#home-care"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white border border-gray-200 text-sm font-medium text-gray-700 hover:text-[#5A9686] hover:border-[#A8D4C8] transition-colors"
+          >
+            Next: Home Care
+            <ArrowRight className="w-4 h-4" />
+          </a>
         </div>
       </div>
 

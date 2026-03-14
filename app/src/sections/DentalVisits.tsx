@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { CheckCircle2, Clock, Heart, Shield, Calendar, Scan } from 'lucide-react';
+import { CheckCircle2, Clock, Heart, Shield, Calendar, Scan, ArrowRight } from 'lucide-react';
 
 const safetyItems = [
   'Dental exams are important during pregnancy',
@@ -184,6 +184,16 @@ export default function DentalVisits() {
               </p>
             </div>
           </div>
+        </div>
+
+        <div className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 mt-10 flex justify-end" style={{ transitionDelay: '700ms' }}>
+          <a
+            href="#myths-facts"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white border border-gray-200 text-sm font-medium text-gray-700 hover:text-[#5A9686] hover:border-[#A8D4C8] transition-colors"
+          >
+            Next: Myths & Facts
+            <ArrowRight className="w-4 h-4" />
+          </a>
         </div>
       </div>
 

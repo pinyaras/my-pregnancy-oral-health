@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { Check, Sparkles, Moon, Utensils } from 'lucide-react';
+import { Check, Sparkles, Moon, Utensils, ArrowRight } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 interface CareSection {
@@ -163,6 +163,16 @@ export default function HomeCare() {
               </div>
             );
           })}
+        </div>
+
+        <div className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 mt-10 flex justify-end" style={{ transitionDelay: '600ms' }}>
+          <a
+            href="#dental-visits"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white border border-gray-200 text-sm font-medium text-gray-700 hover:text-[#5A9686] hover:border-[#A8D4C8] transition-colors"
+          >
+            Next: Dental Visits
+            <ArrowRight className="w-4 h-4" />
+          </a>
         </div>
       </div>
 

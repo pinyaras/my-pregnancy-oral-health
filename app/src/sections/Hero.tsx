@@ -128,6 +128,16 @@ export default function Hero() {
             </div>
           </div>
         </div>
+
+        <div className="animate-on-scroll opacity-0 translate-y-6 transition-all duration-700 mt-10 flex justify-end" style={{ transitionDelay: '600ms' }}>
+          <a
+            href="#why-it-matters"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/90 border border-white text-sm font-medium text-gray-700 hover:text-[#5A9686] transition-colors"
+          >
+            Next: Why It Matters
+            <ArrowRight className="w-4 h-4" />
+          </a>
+        </div>
       </div>
 
       {/* CSS for animation visibility */}

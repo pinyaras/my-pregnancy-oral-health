@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { RotateCcw, Info, Check } from 'lucide-react';
+import { RotateCcw, Info, Check, ArrowRight } from 'lucide-react';
 
 const mythsAndFacts = [
   {
@@ -57,6 +57,10 @@ const mythsAndFacts = [
   {
     myth: 'Baby teeth are not important because they fall out anyway.',
     fact: 'Baby teeth still matter and need care. Most women in the study disagreed with this myth.',
+  },
+  {
+    myth: 'You lose a tooth for every pregnancy.',
+    fact: 'This is an old wives\' tale. With consistent home care and regular dental visits, you can keep your teeth throughout pregnancy.',
   },
 ];
 
@@ -227,6 +231,20 @@ export default function MythsVsFacts() {
               <span className="font-medium">Remember:</span> Myths are common, so ask your dentist or dental hygienist when you are unsure.
             </span>
           </div>
+        </div>
+
+        <div
+          className={`mt-10 flex justify-end transition-all duration-700 delay-700 ${
+            headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+          }`}
+        >
+          <a
+            href="#key-takeaways"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white border border-gray-200 text-sm font-medium text-gray-700 hover:text-[#5A9686] hover:border-[#A8D4C8] transition-colors"
+          >
+            Next: Key Takeaways
+            <ArrowRight className="w-4 h-4" />
+          </a>
         </div>
       </div>
     </section>
