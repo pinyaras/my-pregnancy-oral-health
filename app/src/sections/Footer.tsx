@@ -32,7 +32,7 @@ export default function Footer() {
           </h3>
           <ul className="space-y-4">
             <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
-              Boyd, L. D., & Mallonee, L. F. (2023). <em>Wilkins' clinical practice of the dental hygienist</em> (14th ed.). Jones & Bartlett Learning.
+              Boyd, L. D., & Mallonee, L. F. (2023). <em>Wilkins' clinical practice of the dental hygienist</em> (14th ed., Chapter 46, pp. 838–855). Jones & Bartlett Learning.
             </li>
 
             <li className="text-gray-400 text-xs leading-relaxed pl-4 border-l border-gray-600">
@@ -72,13 +72,13 @@ export default function Footer() {
               <span>Smiles for Two: A Pregnancy Oral Health Guide</span>
             </a>
             <p className="text-gray-400 text-sm leading-relaxed">
-              An educational resource designed to help expectant mothers understand 
+              An educational resource designed to help expectant mothers understand
               and maintain their oral health during pregnancy.
             </p>
             <div className="mt-4 space-y-1 text-sm text-gray-400 leading-relaxed">
               <p className="font-medium text-gray-300">Bergen Community College</p>
               <p>Dental Hygiene Program</p>
-              <p>Professor Lisa Duddy, DHSc, RDH</p>
+              <p>Dr. Lisa Duddy, DHSc, RDH</p>
               <p>Clinical Coordinator</p>
               <a
                 href="https://bergen.edu/dental/"
@@ -113,8 +113,8 @@ export default function Footer() {
           <div className="md:col-span-1">
             <h3 className="font-semibold text-white mb-4">Important Note</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              This information is for educational purposes only and does not replace 
-              professional dental or medical advice. Always consult with your dentist 
+              This information is for educational purposes only and does not replace
+              professional dental or medical advice. Always consult with your dentist
               and healthcare provider for personalized guidance.
             </p>
           </div>
@@ -122,6 +122,9 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-gray-700 mt-10 pt-6">
+          <p className="text-gray-500 text-xs leading-relaxed mb-4">
+            <strong className="text-gray-400">Project Statement:</strong> This website was developed as part of the coursework for DHY 201: Oral Hygiene II, Spring 2026. It is intended for educational use and was completed under the supervision of Dr. Lisa Duddy, DHSc, RDH.
+          </p>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-gray-500 text-sm">
               © {new Date().getFullYear()} Smiles for Two: A Pregnancy Oral Health Guide. Educational resource for expectant mothers.
