@@ -75,19 +75,10 @@ export default function Footer() {
               An educational resource designed to help expectant mothers understand
               and maintain their oral health during pregnancy.
             </p>
-            <div className="mt-4 space-y-1 text-sm text-gray-400 leading-relaxed">
-              <p className="font-medium text-gray-300">Bergen Community College</p>
-              <p>Dental Hygiene Program</p>
-              <p>Dr. Lisa Duddy, DHSc, RDH</p>
-              <p>Clinical Coordinator</p>
-              <a
-                href="https://bergen.edu/dental/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block text-[#7EB5A6] hover:text-[#A8D4C8] transition-colors"
-              >
-                bergen.edu/dental/
-              </a>
+            <div className="mt-4 text-sm text-gray-400 leading-relaxed">
+              <p>
+                Project Statement: This website was developed as part of the coursework for DHY 201: Oral Hygiene II at Bergen Community College, Spring 2026. It is intended for educational use and was completed under the supervision of Dr. Lisa Duddy, DHSc, RDH.
+              </p>
             </div>
           </div>
 
