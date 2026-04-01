@@ -113,9 +113,6 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-gray-700 mt-10 pt-6">
-          <p className="text-gray-500 text-xs leading-relaxed mb-4">
-            <strong className="text-gray-400">Project Statement:</strong> This website was developed as part of the coursework for DHY 201: Oral Hygiene II, Spring 2026. It is intended for educational use and was completed under the supervision of Dr. Lisa Duddy, DHSc, RDH.
-          </p>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-gray-500 text-sm">
               © {new Date().getFullYear()} Smiles for Two: A Pregnancy Oral Health Guide. Educational resource for expectant mothers.
